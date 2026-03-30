@@ -10,6 +10,7 @@ cmake ^
 	-DFREEGLUT_BUILD_DEMOS=OFF               ^
 	-DFREEGLUT_BUILD_STATIC_LIBS=OFF         ^
 	-DFREEGLUT_BUILD_SHARED_LIBS=ON          ^
+	-DCMAKE_POLICY_VERSION_MINIMUM=3.5       ^
 	..
 
 cmake --build . --config Release --target INSTALL
